@@ -1,0 +1,100 @@
+@import url(variable.css);
+
+*{
+    padding: 0;
+    margin: 0;;
+    box-sizing: border-box;
+    width: 1440px;
+    height: 1020px;
+
+}
+
+
+html{
+    background-image: url(/storage/img/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+} 
+
+button{
+    width: 1440px;
+    height: 64px;
+    position: relative;
+    background-color: transparent;
+    border: none;
+    img{
+        width: 46px;
+        height: 46px;
+        position: relative;
+        margin-right: 1389px;
+    }
+    .work{
+        width: 48px;
+        height: 21px;
+        font-family: "Montserrat-SemiBold";
+        color: var(--color-1);
+        font-size: 17px;
+        margin-left: 1005px;
+        position: absolute;
+        margin-top: -40px;
+    }
+    .ab{
+        width: 55px;
+        height: 21px;
+        font-family: "Montserrat-SemiBold";
+        color: var(--color-1);
+        font-size: 17px;
+        margin-left: 1119px;
+        position: absolute;
+        margin-top: -40px;
+
+    }
+    .blog{
+        width: 41px;
+        height: 21px;
+        font-family: "Montserrat-SemiBold";
+        color: var(--color-1);
+        font-size: 17px;
+        margin-left: 1240px;
+        position: absolute;
+        margin-top: -40px;
+
+    }
+
+}
+
+
+
+div {
+    margin-left: 287px;
+    margin-top: 264px;
+    width: 626px;
+    height: 360px;
+    position: absolute;
+    .lin{
+        font-family: "Montserrat-SemiBold";
+        color: var(--color-1);
+        width: 159px;
+        height: 34px;
+        font-size: 28px;
+    }
+    .bring{
+        font-family: "Montserrat-SemiBold";
+        color: var(--color-1);
+        font-size: 80px;
+        margin-top: 17px;
+        width: 626px;
+        height: 196px;
+    }
+    .lor{
+        font-family: "Montserrat-Medium";
+        color: var(--color-1);
+        width: 379px;
+        height: 96px;
+        font-size: 20px;
+        margin-top: 17px
+    }
+}
