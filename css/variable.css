@@ -1,6 +1,9 @@
 
 :root{
     --color-1: #FFFFFF;
+    --color-2: #376e4072;
+    --color-3:#071917d5; 
+    --banner-1: url(../storage/img/Rectangle.png);
 }
 
 @font-face {
