@@ -116,7 +116,8 @@
     .ul__menu{
         display: flex;
         justify-content: center;
-        padding-right: 0;
+        padding-right: 0
+        ;
     }
     .article__home {
         top: 25svh;
