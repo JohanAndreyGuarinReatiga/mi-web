@@ -38,11 +38,11 @@
 }
 
 .section__home {
-    background-image: linear-gradient(var(--color-2), var(--color-3)), var(--banner-1);
+    background-image: linear-gradient(var(--color-2), var(--color-3)100%), var(--banner-1);
     background-size: cover;
-    background-position: center 20%;
+    background-position: center;
     background-repeat: no-repeat;
-    height: 100svh;
+    height: 135svh;
 }
 
 .article__home {
@@ -70,4 +70,22 @@
         font-family: "Montserrat-SemiBold";
         font-size: 0.9vw;
     }
+}
+
+
+.section__icon{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--color-3);
+    img{
+
+    }
+}
+
+@media (max-width: 576px) {
+    
+}
+
+@media (max-width: 576px) {
+
 }
