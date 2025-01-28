@@ -18,6 +18,11 @@
     width: 100%;
 
 }
+.div__logo img{
+    width: 2.19vw;
+    height: 2.19vw;
+}
+
 
 .ul__menu {
     display: flex;
@@ -25,6 +30,7 @@
     padding-right: 159px;
     font-family: "Montserrat-SemiBold";
     color: var(--color-1);
+    font-size: 0.75vw;
 
     li{
         list-style: none;
@@ -51,15 +57,17 @@
     color: var(--color-1);
 
     span {
-        font-size: 28px;
+        font-size: 1.8vw;
         font-family: "Montserrat-Medium";
     }
     h1{
-        font-size: 75px;
+        font-size: 3.6vw;
         font-family: "Montserrat-Medium";
+        width: 29vw;
     }
     p {
-        width: 340px;
+        width: 18vw;
         font-family: "Montserrat-SemiBold";
+        font-size: 0.9vw;
     }
 }
