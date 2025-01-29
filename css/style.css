@@ -74,7 +74,7 @@
     
 }
 
-.section__group{
+.section__group1{
     display: flex;
     background-color: var(--color-3);
     padding-top: 32px;
@@ -85,6 +85,55 @@
         width: 96vw;
         height: auto;
     }
+    p{
+        position: absolute;
+        top: 2685px;
+        left: 99px;
+        font-size: 55px;
+        font-family: "Montserrat-SemiBold";
+        color: var(--color-1);
+        text-align: center;
+    }
+}
+.section__group2{
+    display: flex;
+    background-color: var(--color-3);
+    padding-top: 32px;
+    align-items: center;
+    flex-direction: column;
+    img{
+        width: 96vw;
+        height: auto;
+    }
+    p{
+        position: absolute;
+        top: 3840px;
+        left: 99px;
+        font-size: 55px;
+        font-family: "Montserrat-SemiBold";
+        color: var(--color-1);
+        text-align: center;
+        }
+}
+.section__group3{
+    display: flex;
+    background-color: var(--color-3);
+    padding-top: 32px;
+    align-items: center;
+    flex-direction: column;
+    img{
+        width: 96vw;
+        height: auto;
+    }
+    p{
+        position: absolute;
+        top: 5150px;
+        left: 99px;
+        font-size: 55px;
+        font-family: "Montserrat-SemiBold";
+        color: var(--color-1);
+        text-align: center;
+        }
 }
 
 @media (max-width: 960px) {
