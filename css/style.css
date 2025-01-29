@@ -79,8 +79,8 @@
 
 .section__img1{
     position: absolute;
-    top: 82.91vw;
-    left: 1.59vw;
+    top: 73vw;
+    left: 1.5vw;
     img{
         width: 96vw;
         height: auto;
@@ -88,8 +88,8 @@
 }
 .section__img2{
     position: absolute;
-    top: 143.75vw;
-    left: 1.59vw;
+    top: 133vw;
+    left: 1.5vw;
     img{
         width: 96vw;
         height: auto;
@@ -97,28 +97,40 @@
 }
 .section__img3{
     position: absolute;
-    top: 204.58vw;
-    left: 1.59vw;
+    top: 193vw;
+    left: 1.5vw;
     img{
         width: 96vw;
         height: auto;
     }
 }
 
-.text__3{
+.text__1{
     position: absolute;
-
-    p{
-        top: 4680px;
-        left: 120px;
-        font-size: 2.5vw;
-        font-family: "Montserrat-SemiBold";
-        color: var(--color-1);
-        text-align: center;
-        }
+    top: 123vw;
+    left: 6.8vw;
+    font-size: 3.8vw;
+    color: var(--color-1);
+    font-family: "Montserrat-SemiBold";
 }
 
+.text__2{
+    position: absolute;
+    top: 179vw;
+    left: 6.8vw;
+    font-size: 3.8vw;
+    color: var(--color-1);
+    font-family: "Montserrat-SemiBold";
+}
 
+.text__3{
+    position: absolute;
+    top: 238vw;
+    left: 6.8vw;
+    font-size: 3.8vw;
+    color: var(--color-1);
+    font-family: "Montserrat-SemiBold";
+}
 
 @media (max-width: 960px) {
     .header{
