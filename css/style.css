@@ -71,6 +71,20 @@
     display: flex;
     justify-content: space-evenly;
     background-color: var(--color-3);
+    
+}
+
+.section__group{
+    display: flex;
+    background-color: var(--color-3);
+    padding-top: 32px;
+    align-items: center;
+    flex-direction: column;
+    img{
+        padding-top: 28px;
+        width: 96vw;
+        height: auto;
+    }
 }
 
 @media (max-width: 960px) {
