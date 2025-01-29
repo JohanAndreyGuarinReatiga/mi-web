@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
@@ -26,10 +27,12 @@
     padding-right: 159px;
     font-family: "Montserrat-SemiBold";
     color: var(--color-1);
-
-
     li{
         list-style: none;
+    }
+    a{
+        color: var(--color-1);
+        text-decoration: none;
     }
 }
 
@@ -74,67 +77,48 @@
     
 }
 
-.section__group1{
-    display: flex;
-    background-color: var(--color-3);
-    padding-top: 32px;
-    align-items: center;
-    flex-direction: column;
+.section__img1{
+    position: absolute;
+    top: 82.91vw;
+    left: 1.59vw;
     img{
-        padding-top: 28px;
         width: 96vw;
         height: auto;
-    }
-    p{
-        position: absolute;
-        top: 2685px;
-        left: 99px;
-        font-size: 55px;
-        font-family: "Montserrat-SemiBold";
-        color: var(--color-1);
-        text-align: center;
     }
 }
-.section__group2{
-    display: flex;
-    background-color: var(--color-3);
-    padding-top: 32px;
-    align-items: center;
-    flex-direction: column;
+.section__img2{
+    position: absolute;
+    top: 143.75vw;
+    left: 1.59vw;
     img{
         width: 96vw;
         height: auto;
     }
-    p{
-        position: absolute;
-        top: 3840px;
-        left: 99px;
-        font-size: 55px;
-        font-family: "Montserrat-SemiBold";
-        color: var(--color-1);
-        text-align: center;
-        }
 }
-.section__group3{
-    display: flex;
-    background-color: var(--color-3);
-    padding-top: 32px;
-    align-items: center;
-    flex-direction: column;
+.section__img3{
+    position: absolute;
+    top: 204.58vw;
+    left: 1.59vw;
     img{
         width: 96vw;
         height: auto;
     }
+}
+
+.text__3{
+    position: absolute;
+
     p{
-        position: absolute;
-        top: 5150px;
-        left: 99px;
-        font-size: 55px;
+        top: 4680px;
+        left: 120px;
+        font-size: 2.5vw;
         font-family: "Montserrat-SemiBold";
         color: var(--color-1);
         text-align: center;
         }
 }
+
+
 
 @media (max-width: 960px) {
     .header{
@@ -164,6 +148,7 @@
         object-fit: contain;
     }
     }
+
 }
 
 @media (max-width: 576px) {
@@ -194,5 +179,4 @@
         padding-right: 15px;
         height: 95svh;
     }
-
 }
