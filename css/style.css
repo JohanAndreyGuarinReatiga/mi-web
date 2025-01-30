@@ -1,10 +1,14 @@
 @import url(variable.css);
 
+body{
+    background-color: var(--color-3);
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    background: transparent;
 }
 
 
@@ -17,9 +21,9 @@
     padding-right: 20px;
     padding-top: 5px;
     width: 100%;
+    background-color: transparent;
 
 }
-
 
 .ul__menu {
     display: flex;
@@ -77,6 +81,7 @@
     
 }
 
+
 .section__img1{
     position: absolute;
     top: 73vw;
@@ -130,6 +135,25 @@
     font-size: 3.8vw;
     color: var(--color-1);
     font-family: "Montserrat-SemiBold";
+}
+
+.blog__text{
+    position: absolute;
+    top: 253vw;
+    left: 3vw;
+    font-size: 3.8vw;
+    color: var(--color-1);
+    font-family: "Montserrat-Medium";
+}
+
+.carousel{
+    position: absolute;
+    top: 260vw;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    overflow-x: scroll;
+    gap: 2vw;    
 }
 
 @media (max-width: 960px) {
