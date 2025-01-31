@@ -155,7 +155,7 @@ body{
     gap: 2vw;    
     box-sizing: content-box;
     width: 1440px;
-
+    padding-left: 300px;
     div{
         height: 627px;
         width: 385px;

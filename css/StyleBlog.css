@@ -23,7 +23,11 @@ body{
 
 }
 
-.ul__menu {
+.div__image {
+
+}
+
+/* section__menu {
     display: flex;
     gap: 66px;
     padding-right: 159px;
@@ -36,4 +40,6 @@ body{
         color: var(--color-1);
         text-decoration: none;
     }
-}
+} */
+
+
