@@ -151,9 +151,63 @@ body{
     top: 260vw;
     display: flex;
     flex-direction: row;
-    height: 200px;
     overflow-x: scroll;
     gap: 2vw;    
+    box-sizing: content-box;
+    width: 1440px;
+
+    div{
+        height: 627px;
+        width: 385px;
+        background-color: var(--color-4);
+        border-radius: 35px;
+        display: flex;
+        flex-direction: column;
+        color: var(--color-1);
+        flex-shrink: 0;
+    }
+    img{
+        display: flex;
+        align-self: center;
+        width: 342px;
+        height: 232px;
+        position: absolute;
+        top: 26px;
+    }
+    h1{
+        position: absolute;
+        top: 282px;
+        width: 330px;
+        font-family: "Montserrat-SemiBold";
+        display: flex;
+        align-self: center;
+        font-size: 28px;
+    }
+    p{
+        position: absolute;
+        font-family: "Montserrat-Regular";
+        top: 368px;
+        width: 342px;
+        height: 96px;
+        display: flex;
+        align-self: center;
+    }
+    button{
+        font-family: "Montserrat-Regular";
+        font-size: 20px;
+        border-color: transparent;
+        width: 145px;
+        height: 44px;
+        border-radius: 24px;
+        background-color: var(--color-1);
+        position: absolute;
+        top: 500px;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
 }
 
 @media (max-width: 960px) {

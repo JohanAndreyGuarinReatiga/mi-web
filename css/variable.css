@@ -3,6 +3,7 @@
     --color-1: #FFFFFF;
     --color-2: #376e4014;
     --color-3:#071917; 
+    --color-4:#145E2A;
     --banner-1: url(../storage/img/Rectangle.png);
 }
 
@@ -14,4 +15,9 @@
 @font-face {
     font-family: "Montserrat-SemiBold";
     src: url(../storage/font/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family:"Montserrat-Regular";
+    src: url(../storage/font/Montserrat-Regular.ttf);
 }
