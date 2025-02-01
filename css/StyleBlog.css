@@ -26,7 +26,12 @@ body{
 .div__image {
 
 }
+.section__white-line{
 
+}
+.div__line{
+
+}
 /* section__menu {
     display: flex;
     gap: 66px;
@@ -41,5 +46,15 @@ body{
         text-decoration: none;
     }
 } */
+.section__img{
 
+}
+.section__txt{
 
+}
+.section__txt{
+
+}
+.section__posts{
+
+}
