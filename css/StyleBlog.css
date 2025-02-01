@@ -11,41 +11,100 @@ body{
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    width: 100%;
-    background-color: transparent;
+
 
 }
 
 .div__image {
-
-}
-.section__white-line{
-
-}
-.div__line{
-
-}
-/* section__menu {
-    display: flex;
-    gap: 66px;
-    padding-right: 159px;
-    font-family: "Montserrat-SemiBold";
-    color: var(--color-1);
-    li{
-        list-style: none;
+    width: 100%;
+    position: absolute;
+    #negro{
+        left: 0.3vw;
+        top: 0.6vw;
+        width: 3vw;
+        height: 3vw;
     }
-    a{
+    #mensaje{
+        position: absolute;
+        left: 93vw;
+        top: 1vw;
+        width: 1.8vw;
+        height: auto;
+
+    }
+    #personita{
+        position: absolute;
+        left: 96vw;
+        top: 1vw;
+        width: 1.5vw;
+        height: auto;
+    }
+}
+
+.section__header-txt{
+    position: absolute;
+    top: 1.5vw;
+    font-family: "Montserrat-SemiBold";
+    font-size: 1.2vw;
+    list-style: none;
+    left: 64vw;
+    #B{
+        position: absolute;
         color: var(--color-1);
         text-decoration: none;
+        padding-left: 2vw;
     }
-} */
+    #A{
+        position: absolute;
+        color: var(--color-1);
+        text-decoration: none;
+        padding-left: 9vw;
+    }
+    #C{
+        position: absolute;
+        color: var(--color-1);
+        text-decoration: none;
+        padding-left: 16vw;
+    }
+}
+.section__white-line{
+    position: absolute;
+    left: 4vw;
+    width: 92vw;
+    top: 7vw;
+    height: 2px;
+    background-color: var(--color-1);
+}
+
+.section__menu{
+    button{
+        position: absolute;
+        left: 6.5vw;
+        top: 7.8vw;
+        width: 7.9vw ;
+        height: 2vw;
+        background-color: var(--color-4);
+        border-radius: 0.4vw;
+        border: none;
+        color: var(--color-1);
+        font-size: 1.1vw;
+        font-family: "Montserrat-Medium";
+        cursor: pointer;
+    }
+    div{
+        position: absolute;
+        left: 23.8vw;
+        top: 8.1vw ;
+        width: 51.5vw;
+        height:auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 1.1vw ;
+        font-family: "Montserrat-Light";
+        color:var(--color-1);
+        }
+}
 .section__img{
 
 }
