@@ -81,135 +81,114 @@ body{
     
 }
 
-
-.section__img1{
-    position: absolute;
-    top: 73vw;
-    left: 1.5vw;
+/* .section__imges{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3vw;
     img{
         width: 96vw;
         height: auto;
     }
-}
-.section__img2{
-    position: absolute;
-    top: 133vw;
-    left: 1.5vw;
-    img{
-        width: 96vw;
-        height: auto;
+    p{
+        font-family: "Montserrat-SemiBold";
+        color: var(--color-1);
     }
+} */
+.section__imges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3vw;
 }
-.section__img3{
-    position: absolute;
-    top: 193vw;
-    left: 1.5vw;
-    img{
-        width: 96vw;
+
+.imageContainer {
+    position: relative;
+    width: 96vw;
+    padding-bottom: 2vw;
+    img {
+        width: 100%;
         height: auto;
+    
     }
-}
-
-.text__1{
-    position: absolute;
-    top: 123vw;
-    left: 6.8vw;
-    font-size: 3.8vw;
-    color: var(--color-1);
-    font-family: "Montserrat-SemiBold";
-}
-
-.text__2{
-    position: absolute;
-    top: 179vw;
-    left: 6.8vw;
-    font-size: 3.8vw;
-    color: var(--color-1);
-    font-family: "Montserrat-SemiBold";
-}
-
-.text__3{
-    position: absolute;
-    top: 238vw;
-    left: 6.8vw;
-    font-size: 3.8vw;
-    color: var(--color-1);
-    font-family: "Montserrat-SemiBold";
+    p {
+        position: absolute;
+        bottom: 8vw; 
+        left: 40px;
+        font-family: "Montserrat-SemiBold";
+        color: var(--color-1);
+        /* background:none; */
+        font-size: 5vw;
+    }
 }
 
 .blog__text{
-    position: absolute;
-    top: 253vw;
-    left: 3vw;
+    display: flex;
     font-size: 3.8vw;
+    padding-right: 70vw;
     color: var(--color-1);
     font-family: "Montserrat-Medium";
 }
-
 .carousel{
-    position: absolute;
-    top: 260vw;
+    padding-top: 1.5vw;
     display: flex;
+    gap: 2vw;
     flex-direction: row;
+    width: 100%;
     overflow-x: scroll;
-    gap: 2vw;    
-    box-sizing: content-box;
-    width: 1440px;
-    padding-left: 300px;
+    padding-bottom: 1.5vw ; 
+    box-sizing: content-box; 
     div{
-        height: 627px;
-        width: 385px;
-        background-color: var(--color-4);
-        border-radius: 35px;
+        background-color:var(--color-4);
+        width: 26vw;
+        height: 43.5vw;
+        flex-shrink: 0;
+        border-radius: 2.5vw;
         display: flex;
         flex-direction: column;
         color: var(--color-1);
-        flex-shrink: 0;
-    }
-    img{
-        display: flex;
-        align-self: center;
-        width: 342px;
-        height: 232px;
-        position: absolute;
-        top: 26px;
-    }
-    h1{
-        position: absolute;
-        top: 282px;
-        width: 330px;
-        font-family: "Montserrat-SemiBold";
-        display: flex;
-        align-self: center;
-        font-size: 28px;
-    }
-    p{
-        position: absolute;
-        font-family: "Montserrat-Regular";
-        top: 368px;
-        width: 342px;
-        height: 96px;
-        display: flex;
-        align-self: center;
-    }
-    button{
-        font-family: "Montserrat-Regular";
-        font-size: 20px;
-        border-color: transparent;
-        width: 145px;
-        height: 44px;
-        border-radius: 24px;
-        background-color: var(--color-1);
-        position: absolute;
-        top: 500px;
-        display: flex;
-        align-self: center;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
+        gap: 1.5vw;
+        img{
+            display: flex;
+            padding-top: 1.8vw;
+            width: 24vw;
+            height: auto;
+            align-self: center;
+        }
+        h1{
+            display: flex;
+            font-size: 2vw;
+            width: 23vw;
+            height: auto;
+            align-self: center;
+            font-family: "Montserrat-SemiBold";
+            }
+
+        p{
+            display: flex;
+            font-size: 1.3vw;
+            width: 23vw;
+            height: auto;
+            align-self: center;
+            font-family: "Montserrat-Regular";
+            }
+
+        button{
+            display: flex;
+            border-radius: 1.5vw;
+            height: 3vw;
+            align-self: center;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2vw;
+            width: 8.5vw;
+            background-color: var(--color-1);
+            cursor: pointer;
+            border: none;
+            font-family: "Montserrat-Regular";
+            }
     }
 }
-
 @media (max-width: 960px) {
     .header{
         padding: 15px;
